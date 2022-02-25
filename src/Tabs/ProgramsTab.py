@@ -168,6 +168,7 @@ class RulesBox(JScrollPane):
         html_renderer = HTMLRenderer(html)
         html_renderer.add_css_file("style.css")
         JScrollPane.__init__(self, html_renderer)
+        self.putClientProperty("html.disable", None)
         self.setBorder(make_title_border("Rules"))
 
 

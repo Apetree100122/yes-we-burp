@@ -61,6 +61,7 @@ class HTMLRenderer(JEditorPane):
     def __init__(self, html="", *args, **kwargs):
         JEditorPane.__init__(self)
         self.setEditable(False)
+        self.putClientProperty("html.disable", None)
 
         self.kit = HTMLEditorKit()
         self.setEditorKit(self.kit)
