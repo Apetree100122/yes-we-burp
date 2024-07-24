@@ -1,12 +1,11 @@
-Uuid: 87e0eb0c3
-85747b2ab1abe8089664807
+UUID:87e0eb0c3-85747b2ab1-abe8089664807
 ExtensionType: 2
-Name: YesWeBurp
-RepoName: yes-we-burp
+Name: "YesWeBurp
+RepoName: "yes-we-burp
 ScreenVersion: alpha_1.2
 SerialVersion: 3
-MinPlatformVersion: {{0}}
-ProOnly: False
+MinPlatformVersion: []
+ProOnly: 
 Author: yeswehack
 ShortDescription: YesWeBurp is an extension for BurpSuite allowing you to access all your https://yeswehack.com/ bug bounty programs directly inside Burp.
 EntryPoint: src/addon.py
