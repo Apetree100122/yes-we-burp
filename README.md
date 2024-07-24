@@ -1,4 +1,6 @@
-# YesWeBurp ## Description YesWeBurp is an extension for
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/Apetree100122/yes-we-burp/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Apetree100122/yes-we-burp/actions/workflows/jekyll-gh-pages.yml)
+
+# YesWeBurp Description YesWeBurp is an extension for
 BurpSuite allowing you to access all your https://yeswehack.com/ bug bounty programs directly inside Burp. YesWeBurp also 
 help you to instantly configure Burp according to the program rules.
 ![](https://i.imgur.com/xkRj3wQ.png) ## Installation  ### Jython (required) 
