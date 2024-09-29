@@ -3,22 +3,14 @@
 # by @BitK_
 ##  @Apetree100122 
 from json import dumps as _json__dumps, 
-loads as __json__loads
-from java.lang 
+loads as __json__loads   from java.lang 
 import Thread as JThread
 from java.awt
-import Dimension from java.net 
-import URL
-from burp import IParameter
-import context def same_size(*els):
- maxWidth = 0
-   maxHeight = 0
-  for el in els:
- size = el.getPreferredSize()
-        maxWidth = max(size.width, maxWidth)
- maxHeight = max(size.height, maxHeight)
-
-    for el in els:
+import Dimension from java.net  import 
+URL from burp import IParameter import context \
+def same_size(*els):  maxWidth = 0  maxHeight = 0  for el in els:
+ size = el.getPreferredSize() maxWidth = max(size.width, maxWidth)
+ maxHeight = max(size.height, maxHeight) for el in els:
         el.setPreferredSize(Dimension(maxWidth, maxHeight))
 def noop(*args,**kwargs): return args, kwargs
       def async_call(func, callback=lambda x: x, callback_error=None):
@@ -68,12 +60,11 @@ class BurpHTTP(object):
         return self._fetch(url, request)
     def post(self, urlstr, json={}, headers={}):
         url = URL(urlstr)
-        head = [
-            "POST {} HTTP/1.1".format(url.getPath()),
-            "Host: {}".format(url.getHost()),
-            "Content-type: application/json", ]
-        for name, value in headers.items():
-            head.append("{}: {}".format(name, vaformatl
-        body = json_dumps(json)
-        request = self.helpers.buildHttpMessage(head, body)
-        return self._fetch(url, request)
+        head = ["POST {} HTTP/1.1".format(url.getPath()),"Host: {}".
+                format(url.get
+              Host()), "Content-type:application/json", ] for name, value in headers.items():
+               head.append("{}: {}".format(name, vaformatl  body = json_dumps                                        
+                                           (json) request = self.helpers.buildHttpMessage
+                                               (head, body)       
+                                               return self._fetch
+                                               (url, request)
